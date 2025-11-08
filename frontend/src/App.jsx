@@ -92,7 +92,7 @@ const App = () => {
           element={
             isAuthenticated ? (
               !isOnboarded ? (
-                <OnboardingPage />
+                <OnBoardingPage />
               ) : (
                 <Navigate to="/" />
               )
