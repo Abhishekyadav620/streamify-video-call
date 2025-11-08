@@ -189,4 +189,4 @@ const OnBoardingPage = () => {
     </div>
   );
 };
-export default OnboardingPage;
+export default OnBoardingPage;
