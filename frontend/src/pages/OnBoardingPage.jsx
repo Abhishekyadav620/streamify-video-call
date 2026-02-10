@@ -6,7 +6,7 @@ import { completeOnboarding } from "../lib/api";
 import { LoaderIcon, MapPinIcon, ShipWheelIcon, ShuffleIcon } from "lucide-react";
 import { LANGUAGES } from "../constants";
 
-const OnboardingPage = () => {
+const OnBoardingPage = () => {
   const { authUser } = useAuthUser();
   const queryClient = useQueryClient();
 
@@ -189,4 +189,4 @@ const OnboardingPage = () => {
     </div>
   );
 };
-export default OnboardingPage;
+export default OnBoardingPage;
