@@ -47,11 +47,7 @@ const LoginPage = () => {
           {/* ERROR MESSAGE DISPLAY */}
           {error && (
             <div className="alert alert-error mb-4">
-              <span>
-                {error.response?.status === 502 || error.response?.status === 503
-                  ? "Service temporarily unavailable. Please try again in a moment."
-                  : error.response?.data?.message || error.message || "Something went wrong. Please try again."}
-              </span>
+              <span>{error.response.data.message}</span>
             </div>
           )}
 

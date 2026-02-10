@@ -19,9 +19,7 @@ export const getAuthUser = async () => {
     const res = await axiosInstance.get("/auth/me");
     return res.data;
   } catch (error) {
-    if (error.response?.status !== 502 && error.response?.status !== 503) {
-      console.warn("Auth check failed:", error.response?.status, error.message);
-    }
+    console.log("Error in getAuthUser:", error);
     return null;
   }
 };
