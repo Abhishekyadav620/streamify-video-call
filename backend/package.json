@@ -22,7 +22,7 @@
     "mongoose": "^8.19.3",
     "morgan": "^1.10.0",
     "stream-chat": "^9.25.0",
-    "streamify": "file:.."
+    
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
