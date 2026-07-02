@@ -20,6 +20,7 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://localhost:4000",
+       "https://streamify-video-call.netlify.app"
     ],
     credentials: true,
   })
