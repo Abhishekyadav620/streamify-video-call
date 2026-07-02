@@ -8,7 +8,7 @@ import { LANGUAGES } from "../constants";
 import ProfileAvatar from "../components/ProfileAvatar";
 import { getRandomAvatarUrl } from "../lib/avatar";
 
-const OnboardingPage = () => {
+const OnBoardingPage = () => {
   console.log("OnboardingPage rendered");
   
   const { authUser } = useAuthUser();
@@ -191,4 +191,4 @@ const OnboardingPage = () => {
     </div>
   );
 };
-export default OnboardingPage;
+export default OnBoardingPage;
